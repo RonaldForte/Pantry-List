@@ -2,10 +2,11 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from 'firebase/firestore';
 import { isSupported } from "firebase/analytics";
 
-// Your web app's Firebase configuration
-//Put Firebase API conifg here
+const firebaseConfig = {
+// add here
+  };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 
 let analytics;
